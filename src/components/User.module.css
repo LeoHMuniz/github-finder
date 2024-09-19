@@ -1,0 +1,51 @@
+.user {
+    background-color: #2b3566;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.user img {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    border: #17b986 4px solid;
+}
+
+.user_location {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.user_location span{
+    color: #ffffff6c;
+}
+
+.user_follows {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.user_follows p:nth-child(2),
+.user_follows p:nth-child(4) {
+    background-color: #17b986;
+    padding:2px;
+    border-radius: 4px;
+    margin-top: .6rem;
+}
+
+.user_bestProjects {
+    padding:.8rem;
+    background-color: #0c825d;
+    border-radius: 5px;
+}
+
+.user_bestProjects:hover{
+    background-color: #07d896;
+
+}
